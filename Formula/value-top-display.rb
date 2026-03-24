@@ -2,7 +2,7 @@ class ValueTopDisplay < Formula
   desc "Driver for value-top case LCD display (VID:PID 5131:2007)"
   homepage "https://github.com/randalthor17/value-top-display"
   url "https://github.com/randalthor17/value-top-display/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "d51c55573ec027b7d27b3fc3955bd8f7b6efdaee0c5e16bae17606339efa2a45"
+  sha256 "2a3a98cf35b215110e4943c3d98f4542a5f524cdbfd49e7cd6dd80e08b8f0d28"
   license "MIT"
 
   depends_on "pkg-config" => :build  # MUST have this to use pkg-config in Makefile
