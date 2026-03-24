@@ -1,0 +1,11 @@
+[Unit]
+Description=Value-top case LCD display driver
+After=graphical-session.target
+
+[Service]
+ExecStart=/home/linuxbrew/.linuxbrew/bin/value-top-display
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
