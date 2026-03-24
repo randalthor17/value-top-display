@@ -25,7 +25,6 @@ class ValueTopDisplay < Formula
     # Handle systemd files manually to keep them in the Cellar
     (prefix/"share/systemd/user").install "systemd/value-top-display.service"
   end
-end
 
   def caveats
     <<~EOS
